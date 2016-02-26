@@ -1,0 +1,162 @@
+/*=================================*/
+/* Pico Default Theme
+/* By: Gilbert Pellegrom
+/* http: //dev7studios.com
+/*=================================*/
+
+@font-face {
+	font-family: 'OpenSansBold';
+	src: url('../css/OpenSans-Bold.ttf');
+}
+@font-face {
+	font-family: 'OpenSansLight';
+	src: url('../css/OpenSans-Light.ttf');
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    line-height: 1.2em;
+    margin-bottom: 0.6em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.7em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 2em;
+}
+
+p, table {
+    margin-bottom: 1em;
+}
+
+ol, ul {
+    padding-left: 30px;
+    margin-bottom: 1em;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+i, em {
+    font-style: italic;
+}
+
+u {
+    text-decoration: underline;
+}
+
+abbr, acronym {
+    cursor: help;
+    border-bottom: 0.1em dotted;
+}
+
+td, td img {
+    vertical-align: top;
+}
+
+td, th {
+    border: solid 1px #999;
+    padding: 0.25em 0.5em;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+    background: #eee;
+}
+
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+code {
+    font-family: Courier, "Courier New", Monaco, Tahoma;
+    background: #eee;
+    color: #333;
+    padding: 0px 2px;
+}
+
+pre {
+    background: #eee;
+    padding: 20px;
+    margin-bottom: 1em;
+    overflow: auto;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 0 0 1em 15px;
+    padding-left: 10px;
+    border-left: 5px solid #dddddd;
+}
+
+#header {
+	font-family: "OpenSansBold";
+	font-size: 7em;
+	
+	padding: 2% 2% 2% 24%;
+}
+#header a {
+	text-decoration:none;
+	color: #000;
+	font-weight: bold;
+}
+
+#content {
+	font-family: "OpenSansLight";
+	padding: 2% 2% 2% 24%;
+	height:auto;
+	min-height:300px;
+	float: left;
+	width: 70%;
+}
+.inner {
+        width: 85%;
+    }
+   
+.inner img {
+        width:100%;
+    }
+#navbar {
+	font-family: "OpenSansLight";
+	float: left;
+	width: 20%;
+	line-height:2em;
+	border-right: 2px solid #d8d8d8;
+	height:auto;
+	min-height:300px;
+	text-align:right;
+	padding-right: 15px;
+	padding-top: 30px;
+	position: fixed;
+}
+
+#navbar ul {
+	list-style-type:none;
+}
+#navbar a {
+	text-decoration:none;
+	color: #000
+}
+
+#footer {
+	font-family: "OpenSansLight";
+	font-size: smaller;
+	padding-left: 3%;
+	clear: both;
+	color: #4d4d4d;
+}

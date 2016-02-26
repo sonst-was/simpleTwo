@@ -1,0 +1,39 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
+    {% if meta.description %}
+        <meta name="description" content="{{ meta.description|striptags }}">
+    {% endif %}{% if meta.robots %}
+        <meta name="robots" content="{{ meta.robots }}">
+    {% endif %}
+	
+	<link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css">
+</head>
+
+
+<body>
+<div class="layout">
+	<div id="header">
+		<a href="{{ "index"|link }}">{{ site_title }}</a>
+	</div>
+	<div id="navbar">
+		<ul class="nav">
+			{% for page in pages %}
+				<li{% if page.id == current_page.id %} id="active"{% endif %}>
+					<a href="{{ page.url }}">{{ page.title }} {% if page.id == current_page.id %} &laquo; {% endif %}</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+	<div id="content">
+		<div class="inner">
+			{{ content }}
+		</div>
+	</div>
+	<div id="footer">This website was made with <a href="http://picocms.org/">PicoCMS</a>.
+	<br />This theme was made by sonst-was.</div>
+</div> 
+</body>
+</html>
