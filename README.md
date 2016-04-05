@@ -1,7 +1,7 @@
 # simpleTwo
 A simple theme with two columns for [picoCMS](https://github.com/picocms/Pico). - now with floating header!
 
-A live version of the theme can be seen here: [sonst-was.de](http://sonst-was.de/pico2/index)
+A live version of the theme can be seen here: [sonst-was.de](http://sonst-was.de/simpletwo/)
 
 
 Download the theme, upload it in the themes folder of your pico installation and change the following setting within your config.php:
