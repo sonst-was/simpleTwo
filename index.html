@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <title>test</title>
+    <title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
 	
 	<link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css">
 	<script src="{{ theme_url }}/js/classie.js"></script>
