@@ -1,3 +1,6 @@
+# DEPRECATION WARNING
+  This theme has been abandoned and is no longer maintained. If you like to use it you may need to make changes. So please fork it and create a pull-request if you feel like it!
+
 # simpleTwo
 A simple theme with two columns for [picoCMS](https://github.com/picocms/Pico). - now with floating header!
 
